@@ -55,6 +55,6 @@ app.get('/data', (req, res) => {
     res.send('Hola data')
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Escuchando en el puerto ${port}`);
 })
